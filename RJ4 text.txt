@@ -1,0 +1,17 @@
+in filter method the a is a variable . where we just placing the array element one by one
+
+sort method sort only  upto 1 decimal places , 1 alphabet
+
+1. git clone  {the path}
+Staging - Remote to Your Local , To put Back in to Remote . 
+2.First add file to Staging area with { git add}
+3. git commit -m "{message}" 
+4. Push- git push 
+5. git status -  status of Things
+git checkout- to revert the file
+git restored {stagged File}
+
+= We create a new file for testing or Actually 1 part of the Repo
+git log- History
+
+git diff {file name}- description what happens
