@@ -174,3 +174,131 @@ select:focus {
     border: 1px solid #D9D9D9;
     border-radius: 10px;
 }
+
+#impact{
+    display: flex;
+    
+    justify-content: space-around;
+    margin-bottom: 6vw;
+    margin-top: 3vw;
+}
+#16{
+    text-align: center;
+    margin-left: 8vw;
+    display: block;
+}
+.numbers{
+    color: #444bab;
+
+}
+.offerings{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+/* .college{
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+}
+.college h4{
+    color: #4f516b;
+    font-family: Poppins-SemiBold;
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+.college p{
+    display: block;
+
+}
+#btn3{
+    border-radius: 4px;
+    border-color: #303ABB;
+}
+
+.collegeimg{
+float: right;
+}
+
+.hire{
+    display: block;
+
+}
+.alumini{
+    display: block;
+    
+} */
+
+.university{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 10%;
+}
+.university img{
+    width: 100%;
+    justify-content: left;
+}
+.universityDetails{
+    margin-left: 2%;
+}
+.learning-our{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hire img{
+    width:100%;
+
+}
+.hireDetail{
+    margin-right: 15%;
+}
+.know-more{
+    border: 2px solid blue;
+    width: 35%;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.aluminiWork{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin: 5%; */
+}
+.conpany-details{
+    /* width: 55%; */
+    line-height: 25px;
+}
+.company-icon{
+    width: 45%;
+    display: grid;
+    margin-left: 10%;
+    grid-template-columns: auto auto auto;
+}
+.company-icon img{
+    width: 100%;
+}
+
+.successStory{
+    width: 100%;
+    margin-top: 10vh;
+}
+.successHeading{
+    text-align: center;
+}
