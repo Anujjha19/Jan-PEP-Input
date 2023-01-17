@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Programming Pathshala</title>
     <link rel="stylesheet" href="pp.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.ico">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
 <body>
     <header class="boxnav">
@@ -26,17 +34,20 @@
                             <option value="java" selected>Learning Paths</option>
                         </select>
                     </li>
-                    <li>Success Stories</li>
-                    <li>Hire From Us</li>
-                    <li>Campus Program</li>
-                    <li>Blogs</li>
-                    <li>Events</li>
+                    <li class="li2">Success Stories</li>
+                    <li class="li2">Hire From Us</li>
+                    <li class="li2">Campus Program</li>
+                    <li class="li2">Blogs</li>
+                    <li class="li2">Events</li>
                 </ul>
             </div>
             <div>
                 <ul style="list-style-type: none;">
-                    <li class="pp">Log In</li>
-                    <li><button class="b2" type="button"> Start Free Trial </button></li>
+                    <button class="pp" style="font-size: 16px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    margin: 0 20px;">Log In</button>
+                    <li><button class="b2" type="button" > Start Free Trial </button></li>
                 </ul>
             </div>
         </nav>
@@ -147,377 +158,441 @@
         </section>
     </div>
 
-    <!-- <div class="paths">
-        <h6 style="   font-weight: 600;
-        font-size: 30px; 
-        display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color: #444bab;
+    
+  <section id="offerings">
+    <h5 class="mb-4">Our offerings</h5>
+    <h1>For Organisations</h1>
 
-        "   >Our Offerings</h6>
-        <h3 style="color: #4f516b;
-        text-align : center;
-        ">For Organisations</h3>
+    <div class="row">
+      <div class="col-lg-6 text sd">
+        <h2>For Colleges and Universities</h2>
+        <p>Boost your Campus Placements and help your students become exceptional Software Engineers.</p>
+        <a class="btn btn-outline-primary" href="#" role="button">Know More</a>
+      </div>
+
+      <div class="col-lg-6 img-container">
+        <img src="images/OfferingClasses.webp" alt="">
+      </div>
+      <div class="col-lg-6 text lg">
+        <h2>For Colleges and Universities</h2>
+        <p>Boost your Campus Placements and help your students become exceptional Software Engineers.</p>
+        <a class="btn btn-outline-primary" href="#" role="button">Know More</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 text">
+        <h2>Hire From Us</h2>
+        <p>Hunting for Software Engineers with grit, passion and the right technical skills for your organisation? Look no further.</p>
+        <a class="btn btn-outline-primary" href="#" role="button">Know More</a>
+      </div>
+      <div class="col-lg-6 img-container" style="flex-direction: row; justify-content: flex-end;">
+        <img src="images/OfferingInterview.webp" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  <section id="success">
+    <div class="row">
+      <div class="col-lg-6">
+        <h5 class="mb-4">Where our Alumni Work</h5>
+        <h1>Join the 7,500+ Learners who created their Success Stories with Programming Pathshala</h1>
+        <p>Our learners, be it College Students or Working Professionals - from a diverse range of colleges, organisations and backgrounds, make it to their dream Tech Jobs. Transitions from a service based company to a Product based dream company or
+          a non-coding background to Top Coding Job are no longer supernatural events for us.</p>
+      </div>
+      <div class="col-lg-6" style="text-align: center;">
+        <img src="images/CompanyLogo.webp" alt="" width="100%">
+      </div>
+    </div>
+
+  </section>
+
+  <section id="success-carousel">
+    <div class="section-header">
+      <h5 class="mb-4">Our Success Stories</h5>
+      <h1>What our learners say about us</h1>
+    </div>
+
+    <div class="carousel-container">
+
+      <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-3" style="text-align: center;">
+                <img src="images/ZealVagadiaImg.webp" alt="">
+                <img src="images/AmazonLogo.webp" alt="" width="50%" class="mt-4">
+              </div>
+              <div class="col-lg-9 pb-3">
+                <p>Whatever I am today, I owe it to Programming Pathshala and their life changing course “Renaissance”. I think it is pretty much all we need to build problem solving skills.</p>
+                <br>
+                <b>Zeal Vagadia</b>
+                <p>Software Engineer at Amazon</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3" style="text-align: center;">
+                <img src="images/YagyaModiImg.webp" alt="">
+                <img src="images/google.png" alt="" width="50%" class="mt-4">
+              </div>
+              <div class="col-lg-9 pb-3">
+                <p>I have always been a person who wanted a teacher and some proper guidance and I think that programming Pathshala is best for it.</p>
+                <br>
+                <b>Yagya Modi</b>
+                <p>SWE at Google</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3" style="text-align: center;">
+                <img src="images/AyushSrivastavaImg.webp" alt="">
+                <img src="images/PayPal.png" alt="" width="50%" class="mt-4">
+              </div>
+              <div class="col-lg-9 pb-3">
+                <p>Fortunately, I came across Programming Pathshala on Quora and I was amazed to see some awesome reviews of Renaissance. I went through the website and checked the Curriculum and moreover the fee of the course was in my budget and
+                  not over priced.</p>
+                <br>
+                <b>Ayush Srivastava</b>
+                <p>SDE-2 at PayPal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="stories-button-container pt-3">
+        <a class="btn btn-outline-primary" href="#" role="button">Read More Stories</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="team">
+    <div class="section-header">
+      <h5 class="mb-4">Our Leadership Team</h5>
+      <h1>Together We Make A Difference</h1>
+    </div>
+
+    <div class="members">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="member">
+            <div class="member-text">
+              <img src="images/VivekTeamImg.webp" alt="" class="mb-3"><br>
+              <b>Vivekanand Vivek</b><br>
+              <p class="member-title">Co-Founder, Programming Pathshala</p>
+              <br>
+              <p>Vivekanand Vivek, an outstanding teacher, has graduated from IIT BHU and worked at Amazon, before quitting it to follow his passion. Off-camera he is witty and makes sure to burst everyone in laughter.</p>
+              <br>
+              <p>In a classroom, he is a teacher students love to learn from. Folks are usually in awe with his skills to explain difficult concepts so easily.</p>
+            </div>
+
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter" style="color: #1DA1F2;"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="member">
+            <div class="member-text">
+              <img src="images/BharathTeamImg.webp" alt="" class="mb-3"><br>
+              <b>Bharat Khanna</b><br>
+              <p class="member-title">Co-Founder, Programming Pathshala</p>
+              <br>
+              <p>Bharat worked at Tower Research Capital after graduating from IIT in 2018. Foodie at heart, he loves to build-courses and tech alike.</p>
+              <br>
+              <p>For him every problem can be solved if it is given adequate effort, attention and time. He has been a candidate master at Codeforces and one of the best teachers of coding to thousands of students.</p>
+            </div>
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter" style="color: #1DA1F2;"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="member">
+            <div class="member-text">
+              <img src="images/AnoopTeamImg.webp" alt="" class="mb-3"><br>
+              <b>Anoop Garg</b><br>
+              <p class="member-title">Co-Founder, Programming Pathshala</p>
+              <br>
+              <p>Anoop is an IIT BHU graduate, with a Masters in Tulleling from University of Warwick, UK.</p>
+              <br>
+              <p>He is a impact driven businessman in spirit and, a spiritual at heart. He loves solving complex problems, speaking to students, and is keen to help folks out in any way possible.</p>
+            </div>
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter" style="color: #1DA1F2;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="mentoring">
+    <h5 class="mb-4">Contribute to the mission</h5>
+    <div class="row">
+      <div class="col-lg-6 mentoring-text">
+
+        <h1>Be a Mentor</h1>
+        <p>Join us in this mission of enabling access to Tech Education, and creating incredible learning experiences. For it is not just about getting a tech job, but fundamentally shifting the way people see themselves and their capabilities.
+
+          <br><br>
+          Are you great at tech, and want to teach with us?<br><br>
+
+          <a class="btn btn-primary" href="#" role="button" style="color: #fff;  font-weight: 500;">Teach with Us</a>
+        </p>
+
+      </div>
+      <div class="col-lg-6">
+        <div class="mentor-card">
+          <img src="images/DeepakGupthaMentor.webp" alt="" class="mentor-img" width="30%">
+          <div class="mentor-info">
+            <img src="images/missionQuotation.webp" alt="" width="20px">
+            <div class="text">
+              <p>I have been mentoring and teaching at Programming Pathshala from 2 years and it has been incredible to interact and learn along with very keen and enthusiastic folks. I always wanted to teach and I’m so happy to be a part of this
+                initiative.</p>
+              <br>
+              <p><b>Deepak Gupta</b></p>
+              <p>Senior Developer at DevRev (Ex- Google, Amazon & Rubrik)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="blogs">
+    <div class="section-header mb-5">
+      <h5>Our Blogs</h5>
+      <h2 class="mb-4">Read Inspiring Stories and Tech Blogs</h2>
+      <p>Inspiring and uplifting ideas which will help you feel positive about your career.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/blog1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Guide for an ultimate Tech Career</h5><br>
+              <p class="card-text mb-5">It is long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/blog2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">10 Most Common Mistakes To Avoid While Preparing for FAANG Company Coding Interviews!</h5><br>
+              <p class="card-text mb-5">It is long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/blog3.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">How to Ace your next Data Structures and Algorithms Interview?</h5><br>
+              <p class="card-text mb-5">It is long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stories-button-container pt-3">
+      <a class="btn btn-outline-primary" href="#" role="button">Read More Blogs</a>
+    </div>
+
+  </section>
+
+  <section id=contact>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img src="images/GetInTouchSvg.webp" alt="" width="90%">
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <h1 class="mb-5">Get In Touch</h1>
+
+        <form class="form2">
+
+          <div class="mb-4">
+            <label for="exampleInputName1" class="form-label h5 mb-4">Name</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleInputEmail1" class="form-label h5 mb-4">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleInputMsg" class="form-label h5 mb-4">Query/Message</label>
+            <input type="text" class="form-control" id="exampleInputMsg">
+          </div>
+
+          <div class="d-grid">
+            <button type="submit" class="btn btn-lg btn-primary">Contact Us</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="trial">
+    <div class="section-header">
+      <h2 class="mb-4">Make Your Own Success Story!</h2>
+      <h5 class="mb-4">Start Your 7 Days Free Trial Now!</h5>
+      <button type="submit" class="btn btn-lg btn-primary">Start Free Trial</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row mb-5">
+      <div class="col-md-7">
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <h2>Want to know more about our courses?</h2>
+            <br>
+            <h5>Lets hear all about it. <a href="#">Contact Us</a></h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">Home</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">Front-end Development</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">Terms & Conditions</a>
+          </div>
 
         </div>
-        
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">Renaissance</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">Stories</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">Refund Policy</a>
+          </div>
 
-        <div class="offerings">
-            <div class="college">
-                <h4> For College and Universities</h4>
-                <p>Get your students the added advantage of learning with us, for a full fledged coding interview preparation with experts.</p>
-
-                <button id="btn3">Know More</button>
-            
-
-            <div class="collegeimg">
-                <img src="https://programmingpathshala.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FOfferingClasses.35d1baca.png&w=640&q=75" alt="" width="300">
-            </div>
         </div>
-            <div class="hire">
-                <h4> Hire From Us</h4>
-                <p>Hunting for Software Engineers with grit, passion and the right
-                    technical skills for your organisation? Look no further.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">Low Level Design</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">Blogs</a>
+          </div>
 
-                <button id="btn3">Know More</button>
-                <div class="collegeimg">
-                    <img src="https://programmingpathshala.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FOfferingInterview.014fb6c7.png&w=640&q=40" alt="" width="300">
-                </div>
-            </div>
-
-            <div class="alumini">
-                <h4> Join the 7,500+ Learners who created their Success Stories with Programming Pathshala</h4>
-                <p>Our learners, be it College Students or Working Professionals - from a diverse range of colleges, organisations and backgrounds, make it to their dream Tech Jobs. Transitions from a service based company to a Product based dream company or a non-coding background to Top Coding Job are no longer supernatural events for us.
-
-                </p>
-
-                <button id="btn3">Know More</button>
-                <div class="collegeimg">
-                    <img src="https://programmingpathshala.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCompanyLogo.d0f33abc.webp&w=640&q=20" alt="" width="300">
-                </div>
-            </div>
-        </div> -->
-
-        <div class="offering">
-            <h2>Our Offerings</h2>
-            <h1 class="offering-title">For Organisations</h1>
-    
-            <div class="offering-cards">
-              <div class="offer-card">
-                <img src="./Images/off-1.png" alt="" />
-                <div class="offer-card-content">
-                  <h3>For College and Universities</h3>
-                  <p>
-                    Boost your Campus Placements and help your students become
-                    exceptional Software Engineers.
-                  </p>
-    
-                  <button class="btn-2">Know More</button>
-                </div>
-              </div>
-              <div class="offer-card">
-                <div class="offer-card-content">
-                  <h3>Hire From Us</h3>
-                  <p>
-                    Hunting for Software Engineers with grit, passion and the right
-                    technical skills for your organisation? Look no further.
-                  </p>
-    
-                  <button class="btn-2">Know More</button>
-                </div>
-                <img src="./Images/off-2.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="container">
-          <div class="alumni-work">
-            <div class="alumni-content">
-              <h2>Where Our Alumni Work</h2>
-              <h1>
-                Join the 7,500+ Learners who created their Success Stories with
-                Programming Pathshala
-              </h1>
-              <p>
-                Our learners, be it College Students or Working Professionals - from
-                a diverse range of colleges, organisations and backgrounds, make it
-                to their dream Tech Jobs. Transitions from a service based company
-                to a Product based dream company or a non-coding background to Top
-                Coding Job are no longer supernatural events for us.
-              </p>
-            </div>
-            <div class="group-logo">
-              <img src="./Images/group-logo.png" alt="" />
-            </div>
-          </div>
-        </section>
-    
-        <section class="container">
-          <div class="succ-stories">
-            <h2>Our Success Stories</h2>
-            <h1>What our learners say about us</h1>
-            <div class="alumni-story">
-              <div class="alumni-img">
-                <img class="alumni-img-logo" src="./Images/user.png" alt="" />
-                <img class="alumni-company" src="./Images/Amazon.png" alt="" />
-              </div>
-              <div class="alumni-stories">
-                <img class="quotes" src="./Images/quotes.png" alt="" />
-                <p class="para-dark alumni-quote">
-                  Whatever I am today, I owe it to Programming Pathshala and their
-                  life changing course “Renaissance”. I think it is pretty much all
-                  we need to build problem solving skills.
-                </p>
-                <div class="alumni-name">
-                  <b> Zeal Vagadia</b><img src="./Images/linkedin.png" alt="" />
-                </div>
-                <p class="para-dark">Software Engineer at Amazon</p>
-              </div>
-            </div>
-            <div class="dots">
-              <span class="dot"></span>
-              <span class="dot dot1"></span>
-              <span class="dot"></span>
-            </div>
-            <button class="btn-2">Read More Stories</button>
-          </div>
-        </section>
-    
-        <section class="container">
-          <div class="leadr-team">
-            <h2>Our Leadership Team</h2>
-            <h1>Together We Make A Difference</h1>
-            <div class="leadr-team-user">
-              <div class="leadr-team-card">
-                <img class="user" src="./Images/user1.png" alt="" />
-                <h4>Vivekanand Vivek</h4>
-                <p class="user-status">Co-Founder, Programming Pathshala</p>
-                <p class="user-values">
-                  Vivekanand Vivek, an outstanding teacher, has graduated from IIT
-                  BHU and worked at Amazon, before quitting it to follow his
-                  passion. Off-camera he is witty and makes sure to burst everyone
-                  in laughter. <br />
-                  <br />
-                  In a classroom, he is a teacher students love to learn from. Folks
-                  are usually in awe with his skills to explain difficult concepts
-                  so easily.
-                </p>
-                <div class="icons">
-                  <img src="./Images/linkedin-1.png" alt="" />
-                  <img src="./Images/twitter.png" alt="" />
-                </div>
-              </div>
-              <div class="leadr-team-card">
-                <img class="user" src="./Images/user2.png" alt="" />
-                <h4>Bharat Khanna</h4>
-                <p class="user-status">Co-Founder, Programming Pathshala</p>
-                <p class="user-values">
-                  Bharat worked at Tower Research Capital after graduating from IIT
-                  in 2018. Foodie at heart, he loves to build- courses and tech
-                  alike. <br /><br />
-                  For him every problem can be solved if it is given adequate
-                  effort, attention and time. He has been a candidate master at
-                  Codeforces and one of the best teachers of coding to thousands of
-                  students.
-                </p>
-                <div class="icons">
-                  <img src="./Images/linkedin-1.png" alt="" />
-                  <img src="./Images/twitter.png" alt="" />
-                </div>
-              </div>
-              <div class="leadr-team-card">
-                <img class="user" src="./Images/user3.png" alt="" />
-                <h4>Anoop Garg</h4>
-                <p class="user-status">Co-Founder, Programming Pathshala</p>
-                <p class="user-values">
-                  Anoop is an IIT BHU graduate, with a Masters in Tulleling from
-                  University of Warwick, UK. <br /><br />
-                  He is a impact driven businessman in spirit and, a spiritual at
-                  heart. He loves solving complex problems, speaking to students,
-                  and is keen to help folks out in any way possible.
-                </p>
-                <div class="icons">
-                  <img src="./Images/linkedin-1.png" alt="" />
-                  <img src="./Images/twitter.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    
-        <section class="mentor-section container">
-          <div class="mentor-content">
-            <h2>Contribute to the Mission</h2>
-            <h1>Be a Mentor</h1>
-            <p>
-              Join us in this mission of enabling access to Tech Education by
-              helping us reach out to more folks and catalyse their journey- for it
-              is not just about getting into a Tech Job but fundamentally shifting
-              the way people see themselves and their capabilities.
-            </p>
-    
-            <p>Are you great at something or anything and want to teach with us?</p>
-            <button class="btn btn-teach">Teach With Us</button>
-          </div>
-          <div class="mentor-card">
-            <img class="mentor" src="./Images/mentor.png" alt="Mentor" />
-            <div class="mentor-info">
-              <img class="quotes1" src="./Images/quotes1.png" alt="Quotes" />
-              <p class="mentor-para">
-                I have been mentoring and teaching at Programming Pathshala from 2
-                years and it has been incredible to interact and learn along with
-                very keen and enthusiastic folks. I always wanted to teach and I'm
-                so happy to be a part of this initiative.
-              </p>
-              <h4>Deepak Gupta</h4>
-              <p class="mentor-status">
-                Senior Developer at DevRev (Ex- Google, Amazon & Rubrik)
-              </p>
-            </div>
-          </div>
-        </section>
-    
-        <div class="blogs-section container">
-          <section class="blogs">
-            <h2>Our Blogs</h2>
-            <h1>Read Our Blogs</h1>
-            <p class="sub-para">
-              Inspiring and uplifting ideas which will help you feel positive about
-              your career.
-            </p>
-            <div class="blog-cards">
-              <div class="blog-card">
-                <img src="./Images/blog3.svg" alt="" />
-                <div class="blog-content">
-                  <h3>Guide for an ultimate Tech Career</h3>
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its
-                    layout.....
-                  </p>
-                </div>
-              </div>
-              <div class="blog-card zoomin">
-                <img src="./Images/blog2.svg" class="zoom-img" alt="" />
-                <div class="blog-content zoom">
-                  <h3>
-                    10 Most Common Mistakes To Avoid While Preparing for FAANG
-                    Company Coding Interviews!
-                  </h3>
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its
-                    layout.....
-                  </p>
-                </div>
-              </div>
-              <div class="blog-card">
-                <img src="./Images/blog1.svg" alt="" />
-                <div class="blog-content">
-                  <h3>
-                    How to Ace your next Data Structures and Algorithms Interview?
-                  </h3>
-                  <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its
-                    layout.....
-                  </p>
-                </div>
-              </div>
-            </div>
-    
-            <button class="btn-2">Read More Blogs</button>
-          </section>
         </div>
-    
-        <section class="get-touch container">
-          <img src="./Images/touch.png" alt="" />
-          <div class="touch-form">
-            <h1>Get In Touch</h1>
-            <form action="">
-              <label for="name">Name</label><br />
-              <input type="text" /><br />
-              <label for="email">Email ID</label><br />
-              <input type="email" /><br />
-              <label for="message">Query/Message</label><br />
-              <input type="text" /><br />
-              <button class="btn btn-contact">Contact Us</button>
-            </form>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">Programming in C++</a>
           </div>
-        </section>
-    
-        <!-- Own Succ Stories -->
-        <section class="own-succ-stories container">
-          <h1>Make Your Own Success Story!</h1>
-          <p>Start Your 7 Days Free Trail Now!</p>
-          <div class="own-trial">
-            <button onclick="location.href = '/Register-User'">
-              Start Free Trial
-            </button>
+          <div class="col-md-4">
+            <a href="#">Teach with Us</a>
           </div>
-        </section>
-    
-        <!-- Sub-footer  -->
-        <section class="sub-footer container">
-          <div class="first-sec">
-            <h3>Want To know more about our courses?</h3>
-            <p>Let's here all about it. <u>Contact Us</u></p>
-            <div class="first-sec-links">
-              <div class="link-1">
-                <ul class="link-1a">
-                  <li>Home</li>
-                  <li>Renaissance</li>
-                  <li>Low Level Design</li>
-                  <li>Programming in C++</li>
-                  <li>Python</li>
-                </ul>
-                <ul class="link-1a">
-                  <li>Front-end Development</li>
-                  <li>Stories</li>
-                  <li>Blogs</li>
-                  <li>Teach with Us</li>
-                  <li>Get Scholarship</li>
-                </ul>
-                <ul class="link-1a">
-                  <li>Terms & Conditions</li>
-                  <li>Refund Policy</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-    
-          <div class="second-sec">
-            <img src="./Images/logo.svg" alt="" />
-            <p>
-              We help our users to build skills, which are valued and enabling them
-              to believe in themselves.
-            </p>
-            <div class="share">
-              <img src="./Images/share-linkedin.svg" alt="" />
-              <img src="./Images/share-youtube.svg" alt="" />
-              <img src="./Images/share-facebook.svg" alt="" />
-              <img src="./Images/share-instagram.svg" alt="" />
-              <img src="./Images/share-telegram.svg" alt="" />
-            </div>
-            <button>
-              <img src="./Images/chat.svg" alt="" />
-              Chat with an Expert
-            </button>
-          </div>
-        </section>
-    
-        <footer class="container">
-          All rights reserved with @Programming Pathshala
-        </footer>
-      </body>
-    </html>
+        </div>
 
-    
-    
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">Python</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">Get Scholarship</a>
+          </div>
+        </div>
 
-    </body>
+      </div>
+
+      <div class="col-lg-5">
+        <img src="images/pp-header-logo.png" alt="" width="60%"><br><br><br>
+        <p>We help our users to build skills, which are valued and enabling them to believe in themselves.</p>
+
+        <div class="social-icons-container">
+          <a href="#">
+            <div class="social-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="social-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="social-icon">
+              <i class="fa-sharp fa-solid fa-paper-plane"></i>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="rights">
+      <p>All rights reserved with @Programming Pathshala</p>
+    </div>
+  </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/94cdb875d7.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </html>
