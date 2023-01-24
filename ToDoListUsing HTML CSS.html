@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            background: rgb(242, 196, 136);
+            border: 5px solid rgb(0, 0, 0);
+            padding: 40px;
+            width: 300px;
+        }
+        #list{
+            background: aqua;
+            width: 300px;
+            border-radius: 10%;
+        }
+
+        .list-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .list-item p {
+            padding: 0 20px;
+        }
+
+        .delete {
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+        }
+
+        .striked {
+            text-decoration: line-through;
+        }
+    </style>
+    <script>
+        function addTodo() {
+            const inputBox = document.getElementById('input-box');
+            const text = inputBox.value;
+
+            //Creating a list in Div
+            const listItem = document.createElement('div');
+            listItem.className = 'list-item';
+            const checkBox = document.createElement('input');
+            checkBox.type = 'checkbox';
+
+            const p = document.createElement('p');
+            p.innerText = text;
+
+            checkBox.onclick = () => {
+                if (checkBox.checked) p.className = 'striked';
+                else p.className = '';
+            }
+            const button = document.createElement("button");
+            button.className = "delete";
+            button.innerText = 'X';
+
+            button.onclick = () => {
+                listItem.remove();
+            }
+            listItem.appendChild(checkBox);
+            listItem.appendChild(p);
+            listItem.appendChild(button);
+
+            const listDiv = document.getElementById('list');
+            listDiv.append(listItem);
+            inputBox.value = '';
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="container">
+        <h2> ToDo</h2>
+        <hr>
+        <input id="input-box">
+        <button id="add" onclick="addTodo()"> Add ToDos</button>
+    </div>
+
+    <div id="list">
+        <!--  <div class="list-item">
+
+            <input type="checkbox" onclick="strikeTodo(this)" />
+            <p> Exercise</p><button class="delete">X</button>
+        </div>
+        <div class="list-item">
+            <input type="checkbox" />
+            <p class="striked">Exercise</p>
+            <button class="delete">X</button>
+        </div> -->
+
+    </div>
+
+
+
+</body>
+
+</html>
